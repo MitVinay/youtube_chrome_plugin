@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Comment Analyser</title>
+    <style>
+      body {
+        width: 300px;
+        height: 200px;
+      }
+      input, button {
+        width: 100%; 
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Enter a Comment:</h3>
+    <input type="text" id="comment" placeholder="Enter comment here" />  <!-- The text box for the user to enter their comment -->
+    <button id="sendComment">Send to Flask API</button>  <!-- Button to send the comment -->
+    <div id="result"></div>  <!-- This will display the result from Flask -->
+    <script src="popup.js"></script>  <!-- JavaScript file that handles logic -->
+  </body>
+</html>
