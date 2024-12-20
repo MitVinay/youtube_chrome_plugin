@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2, 
+    "name": "YouTube Comment Analyser", 
+    "version": "1.0",  
+    "description": "A chrome extenstion that will help you analyse the sentiment of the audience", 
+    "permissions": ["activeTab", "http://127.0.0.1:8080/"],  
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+}
